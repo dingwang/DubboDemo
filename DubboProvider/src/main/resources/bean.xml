@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:people="http://www.luyee.com/bat/schema/people"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd    
+    http://www.luyee.com/bat/schema/people http://www.luyee.com/bat/schema/people.xsd">
+	<people:student id="student1" name="student1" age="18" class="org.DubboProvider.dingwang.beandef.Student"/>
+
+	<people:student id="student2" name="student2" age="20" class="org.DubboProvider.dingwang.beandef.Student"/>
+	
+</beans>  
